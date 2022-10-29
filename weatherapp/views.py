@@ -1,6 +1,6 @@
 from django.shortcuts import render, get_object_or_404, redirect
 from decouple import config
-# import requests
+import requests
 from pprint import pprint
 from django.contrib import messages
 from .models import City
